@@ -15,37 +15,7 @@ using namespace std;
 #define SetConsoleTextAttributeWhite "\033[38;2;255;255;255m"
 #define SetConsoleTextAttributeYellow "\033[38;2;255;255;0m"
 #define SetConsoleTextAttributeRed "\033[38;2;255;0;0m"
-int numericalSorcerer();
-int bingoCardNumber(int minRange, int maxRange);
-vector<int> createBingoCard();
-void showPlayerCard(vector<int> card);
-void showPlayerCardOption1(vector<int> card);
-void showPlayerCardOption2(vector<int> card);
-void showPlayerCardOption3(vector<int> card);
-void showPlayerCardOption4(vector<int> card);
-bool checkBingoWinHard( vector<int> card);
-bool checkBingoWin( vector<int> card);
-void displayWinningPattern( vector<int> card);
-void displayBingoLogo();
-void displayMainMenuUi();
-void displayMenuErrorHandling();
-void displayGameSettingMenu();
-void displayCredit();
-void displayAbout();
-void displayLearnHowToPlay();
-void displayPattern1();
-void displayPattern2();
-void displayPattern3();
-void displayPattern4();
-void displayDesignErrorHandling();
-void displayCrownWinner();
-void displayErrorHandlingBack();
-void displayRating();
-void displayGoodbyeExit();
-void displayErrorHandlingMod();
-void displayGuntingLineBreaker();
-void displayKeyBoard1();
-void displayMayBug();
+
 
 int main() {
   HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
